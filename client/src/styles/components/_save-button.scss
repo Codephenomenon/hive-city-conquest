@@ -1,0 +1,6 @@
+.save-button {
+  @include button-base;
+  position: absolute;
+  right: 20px;
+  top: 20px
+}

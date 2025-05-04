@@ -1,0 +1,103 @@
+// Responsive mixins
+@mixin media($breakpoint) {
+  @if $breakpoint == sm {
+    @media (min-width: $breakpoint-sm) { @content; }
+  } @else if $breakpoint == md {
+    @media (min-width: $breakpoint-md) { @content; }
+  } @else if $breakpoint == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  } @else if $breakpoint == xl {
+    @media (min-width: $breakpoint-xl) { @content; }
+  }
+}
+
+// Flexbox mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// Card styling
+@mixin card {
+  background-color: $card-background;
+  border-radius: $border-radius-lg;
+  padding: $spacing-lg;
+  box-shadow: $box-shadow;
+}
+
+// Button styling
+@mixin button-base {
+  padding: 8px 16px;
+  border-radius: $border-radius-sm;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+@mixin button-primary {
+  @include button-base;
+  background-color: $button-primary;
+  color: $text-color;
+  
+  &:hover:not(:disabled) {
+    background-color: $primary-hover;
+  }
+  
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-secondary {
+  @include button-base;
+  background-color: $button-secondary;
+  color: $text-color;
+  
+  &:hover:not(:disabled) {
+    background-color: $secondary-hover;
+  }
+  
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-success {
+  @include button-base;
+  background-color: $success;
+  color: $text-color;
+  
+  &:hover:not(:disabled) {
+    background-color: $success-hover;
+  }
+}
+
+@mixin button-cancel {
+  @include button-base;
+  background-color: $cancel;
+  color: $text-color;
+  
+  &:hover:not(:disabled) {
+    background-color: $cancel-hover;
+  }
+}
+
+@mixin full-screen() {
+  width: 100vw;
+  height: 100vh;
+}

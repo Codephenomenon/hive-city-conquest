@@ -1,0 +1,16 @@
+.hex {
+  position: relative;
+  
+  &__copy {
+    font-size: vw(6px);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+
+  &.orbital-shuttleport::after {
+    content: '';
+    background-image: url('@/assets/icons/orbital-shuttleport.png') center center no-repeat cover;
+    position: absolute;
+    width: 2rem;
+    height: 1rem;
+  }
+}

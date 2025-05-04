@@ -1,0 +1,141 @@
+.players-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  width: vw(130px);
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: rem(50px);
+    height: 100%;
+    background: linear-gradient(to right, 
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0));
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  &--expanded::before {
+    display: none;
+  }
+}
+
+.players-container--expanded {
+  width: vw(800px);
+  justify-content: flex-start;
+}
+
+.players-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.player-card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.player-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.player-info {
+  flex: 1;
+}
+
+.player-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: $text-muted;
+  margin: 0 0 4px 0;
+}
+
+.faction-name {
+  color: #666;
+  font-style: italic;
+  margin: 0 0 12px 0;
+}
+
+.player-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.stat {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  min-width: 80px;
+
+  &__arrow {
+    position: absolute;
+    width: vw($font-size-xl);
+    top: $spacing-sm;
+
+    &--left {
+      left: $spacing-sm;
+    }
+
+    &--right {
+      right: $spacing-sm;
+      transform: rotate(180deg);
+    }
+  }
+
+  &__label {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+  }
+
+  &__value {
+    color: #666;
+  }
+}
+
+.stat-value {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.panel-toggle {
+  cursor: pointer;
+
+  img {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: vw(100px);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}

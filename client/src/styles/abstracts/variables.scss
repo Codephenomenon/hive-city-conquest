@@ -1,0 +1,85 @@
+// Base
+$html-font-size: 16px;
+$viewport-width: 100vw; // Full viewport width
+
+@function stripUnit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+// Original rem function
+@function rem($px) {
+  @return calc($px / $html-font-size) * 1rem;
+}
+
+// New viewport width function
+@function vw($px) {
+  // Convert pixel value to a percentage of viewport width
+  @return calc($px / $viewport-width * 100) * 1vw;
+}
+
+// Dimensions
+// Spacing
+$spacing-xs: rem(5px);
+$spacing-sm: rem(10px);
+$spacing-md: rem(20px);
+$spacing-lg: rem(30px);
+$spacing-xl: rem(40px);
+
+// Border radius
+$border-radius-sm: rem(4px);
+$border-radius: rem(8px);
+
+// Box-shadow
+$box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+$box-shadow-lg: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+// Font sizes
+$font-size-xs: rem(12px);
+$font-size-sm: rem(14px);
+$font-size-md: rem(16px);
+$font-size-lg: rem(18px);
+$font-size-xl: rem(20px);
+$font-size-xxl: rem(24px);
+
+// Colors
+$background-color: #1a1a1a;
+$card-background: #2a2a2a;
+$secondary-background: #333;
+$tertiary-background: #555;
+$background-light: #edf2f7;
+$border-color: #444;
+$border-light: #e2e8f0;
+$text-color: #fff;
+$text-secondary: #ccc;
+$text-tertiary: #f0f0f0;
+$text-muted: #999;
+$text-dark: #4a5568;
+$text-dark-secondary: #1a202c;
+$heading: #e0e0e0;
+
+// Colors -- Faction
+$imperial: #0047AB;
+$chaos: #8B0000;
+$xenos: #FF8C00;
+$neutral: #708090;
+
+$primary-color: #4299e1;
+$danger-color: #e53e3e;
+$success-color: #38a169;
+$cancel: #757575;
+
+$primary-hover: #0035A1;
+$success-hover: #3D8B40;
+$secondary-hover: #5A6D89;
+$cancel-hover: #616161;
+
+// Colors -- Button
+$button-primary: $primary-color;
+$button-secondary: $neutral;
+$button-success: $success-color;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

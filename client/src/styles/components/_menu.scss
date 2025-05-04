@@ -1,0 +1,126 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(black, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background-color: $background-color;
+  color: $text-tertiary;
+  border-radius: $border-radius;
+  padding: rem(32px);
+  width: 90%;
+  max-width: rem(800px);
+  max-height: 90vh;
+  overflow-y: auto;
+
+  h1 {
+    text-align: center;
+    margin-bottom: $spacing-md;
+    color: $heading;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: $spacing-md;
+  }
+  
+  .tabs button {
+    flex: 1;
+    padding: $spacing-sm;
+    background-color: $secondary-background;
+    border: none;
+    color: $text-secondary;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tabs button.active {
+    background-color: $tertiary-background;
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: $spacing-md;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: $spacing-sm;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: $spacing-sm;
+    background-color: $secondary-background;
+    border: 1px solid $tertiary-background;
+    color: $text-tertiary;
+    border-radius: $border-radius-sm;
+  }
+  
+  .player-config {
+    border: rem(1px) solid $border-color;
+    padding: $spacing-sm;
+    margin-bottom: $spacing-sm;
+    border-radius: $border-radius-sm;
+  }
+  
+  .color-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="color"] {
+    height: 2.5rem;
+    width: 3rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: $spacing-sm;
+  }
+  
+  .color-value {
+    font-family: monospace;
+  }
+  
+  .create-button, .load-button {
+    @include button-primary;
+    display: block;
+    width: 100%;
+    padding: $spacing-sm;
+    border: none;
+    border-radius: $border-radius-sm;
+    cursor: pointer;
+    font-size: $font-size-md;
+    margin-top: $spacing-md;
+  }
+  
+  .saved-campaigns {
+    margin-top: 1.5rem;
+  }
+  
+  .saved-campaigns ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .saved-campaigns li {
+    padding: 0.75rem;
+    background-color: #333;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .saved-campaigns li:hover {
+    background-color: #444;
+  }
+}

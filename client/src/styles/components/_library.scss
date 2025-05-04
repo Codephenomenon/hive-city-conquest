@@ -1,0 +1,29 @@
+.library-container {
+  position: relative;
+}
+
+.icon-button {
+  position: fixed;
+  z-index: 100;
+  background-color: $secondary-background;
+  border: none;
+  border-radius: 0.5rem;
+  padding: $spacing-xs;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  box-shadow: 0 rem(4px) rem(6px) rgba(black, 0.1);
+  transition: background-color 0.2s ease;
+
+  &__icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    transform: scale(0.75);
+    transition: all 0.3s ease;
+    filter: brightness(0) invert(1);
+
+    &:hover {
+      transform: scale(1);
+    }
+  }
+}

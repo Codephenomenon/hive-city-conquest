@@ -1,0 +1,941 @@
+{
+  "strategic-resources": [
+    {
+      "title": "ADVANCE TO VICTORY",
+      "sp": 2,
+      "description": "During the Action phase of the next campaign round, the player with this card earns 1 additional glory point each time they choose to Advance when determining the mission and win the subsequent battle.\nThis does not apply to battles in which a player is assaulting a special location using the assault stronghold card.",
+      "available": 1
+    },
+    {
+      "title": "CONTROL THROUGH SUBVERSION",
+      "sp": 3,
+      "description": "During the Seize Territory step of this Strategy phase, the player with this card can choose to capture a single location controlled by an enemy player (excluding special locations) even if they didn't win a battle against them during this campaign round's Action phase.",
+      "available": 2
+    },
+    {
+      "title": "DIVINER OF FATE",
+      "sp": 1,
+      "description": "During the Generate Random Event step of this Strategy phase, 3 Random Event cards are drawn instead of 1. The player with this card then chooses which Random Event takes effect.",
+      "available": 1
+    },
+    {
+      "title": "ORBITAL ASSAULT",
+      "sp": 3,
+      "description": "During the Seize Territory step of this Strategy phase, the player with this card can capture locations that are not adjacent to any other locations (the other restrictions to seizing territory still apply). This card costs 0 strategy points if the purchasing player controls the Orbital Shuttleport.",
+      "available": 1
+    },
+    {
+      "title": "FORTIFY DISTRICT",
+      "sp": 3,
+      "description": "At the start of the Seize Territory step of this Strategy phase, the player with this card can upgrade one of their locations (excluding special locations). Place a Fortified marker on the chosen location. From then on, the player controlling that location rolls a d6 each time an enemy player attempts to seize that location: on a 1-3 that location is seized as normal, but on a 4-6 the location is not seized and remains under your control (the player that attempted to seize that location does not gain any location). This card costs 0 strategy points if the purchasing player controls the Aegis City shield generator.",
+      "available": 1
+    },
+    {
+      "title": "ASSAULT STRONGHOLD",
+      "sp": 4,
+      "description": "Once, during the Action phase of the next campaign round, a player with this card can assault a special location if they are playing against the player that controls that location and it is adjacent to one of their locations. The same special location can only be assaulted once per Action phase. When you do so, play the mission as described in that special location's rules. If the player who launched the assault wins the game, they automatically take control of that location at the end of the Seize Territory step of this campaign round's Strategy phase, in addition to any other locations they seize. If the players fighting the battle both wish to use this card, they roll off and the winner decides who launches the assault.",
+      "available": 2
+    },
+    {
+      "title": "CONTINGENCY PLANS",
+      "sp": 1,
+      "description": "If the player with this card is routed during this Strategy phase, they can choose 3 locations instead of only 1 when establishing a new territory. Uncontrolled locations must be chosen first. Otherwise, any location on the Cityscape map apart from special locations may be chosen.",
+      "available": 1
+    },
+    {
+      "title": "STRATEGIC BREAKTHROUGH",
+      "sp": 5,
+      "description": "The player who purchases this card immediately gains D6 campaign points.",
+      "available": 1
+    },
+    {
+      "title": "STRATEGIC INSIGHTS",
+      "sp": 3,
+      "description": "The player who purchases this card immediately gains D3 campaign points. This card costs 0 strategy points if the purchasing player controls the Fortified Palace.",
+      "available": 1
+    },
+    {
+      "title": "THE FIELD OF BATTLE",
+      "sp": 1,
+      "description": "Once, during the Action phase of the next campaign round, you can choose to use the rules for Urban Battlezone: Conflagration, Urban Battlezone: Pollution or Urban Battlezone Infestation, irrespective of whether your opponent wishes to use those rules or not. If the Raging Inferno or Smog Storm random Event card is in play, resolve that card's effects before resolving this card's effects.",
+      "available": 1
+    },
+    {
+      "title": "INSPIRED LEADERSHIP",
+      "sp": 3,
+      "description": "During the Action phase of the next campaign round, the Warlord of the player with this card has one Warlord trait, chosen from Hivecity Conquest Warlord Traits. This card costs 0 strategy points if the purchasing player controls the Saint's Basilicanum.",
+      "available": 1
+    },
+    {
+      "title": "INSTALL COMMS AUGERS",
+      "sp": 1,
+      "description": "At the start of the Seize Territory step of this Strategy phase, the player with this card can upgrade one of their locations (excluding special locations). Place a Comms marker on the chosen location. From then on, the Strategic Value of that location is increased by 1.",
+      "available": 1
+    },
+    {
+      "title": "RAZE TO THE GROUND",
+      "sp": 5,
+      "description": "At the start of the Seize Territory step of this Strategy phase, the player with this card can Raze on of their locations (excluding power bases and special locations). Place a Razed marker on the chosen location, and remove the army marker from that location. No player can control that location for the remainder of the campaign.",
+      "available": 1
+    },
+    {
+      "title": "PRESS THE ATTACK",
+      "sp": 5,
+      "description": "At the end of the Seize Territory step of this Strategy phase, the player with this card can seize one additional location (the other restrictions to seizing territory still apply).",
+      "available": 1
+    },
+    {
+      "title": "GLORIOUS ASSAULT",
+      "sp": 2,
+      "description": "During the Action phase of the next campaign round, the player with this card earns 1 additional glory point each time they choose to Advance when determining the attacker and win the subsequent battle.\n This does not apply to battles in which a player is assaulting a special location using the 'Assault Stronghold' card.",
+      "available": 1
+    },
+    {
+      "title": "HOLD AT ALL COSTS",
+      "sp": 2,
+      "description": "During the Action phase of the next campaign round, the player with this card earns 1 additional glory point each time they choose to Reinforce when determining the attacker and win the subsequent battle.\n This does not apply to battles in which a player is assaulting a special location using the 'Assault Stronghold' card.",
+      "available": 1
+    },
+    {
+      "title": "SCOUT THE AREA",
+      "sp": 0,
+      "description": "During the Action phase of the next campaign round, the player with this card earns 1 additional glory point each time they choose to Subterfuge when determining the attacker and win the subsequent battle.\n This does not apply to battles in which a player is assaulting a special location using the 'Assault Stronghold' card.",
+      "available": 1
+    },
+    {
+      "title": "ESTABLISH OUTPOST",
+      "sp": 2,
+      "description": "At the start of the Seize Territory step of this Strategy phase, the player with this card can upgrade on of their locations (excluding special locations). Place an Outpost marker on the chosen location. From then on, the Resource Value of that location is increased by 1.",
+      "available": 1
+    },
+    {
+      "title": "ASSASSINS",
+      "sp": 2,
+      "description": "During the Action phase of the next campaign round, the player with this card earns 2 glory points each time they destroy an enemy Warlord, instead of only 1.",
+      "available": 1
+    },
+    {
+      "title": "AGGRESSIVE TACTICS",
+      "sp": 1,
+      "description": "During the Action phase of the next campaign round, when players are determining the attacker, the player with this card can choose to change their pre-battle selection from Subterfuge or Reinforce to Advance after players have revealed their choices. If both players have a card that allows them to change their pre-battle selection, they roll off, and the winner chooses the order in which they both get the opportunity to do so.\n This does not apply to battles in which a player is assaulting a special location using the 'Assault Stronghold' card.",
+      "available": 1
+    },
+    {
+      "title": "DEFENSIVE TACTICS",
+      "sp": 1,
+      "description": "During the Action phase of the next campaign round, when players are determining the attacker, the player with this card can choose to change their pre-battle selection from Advance or Subterfuge to Reinforce after players have revealed their choices. If both players have a card that allows them to change their pre-battle selection, they roll off, and the winner chooses the order in which they both get the opportunity to do so.\n This does not apply to battles in which a player is assaulting a special location using the 'Assault Stronghold' card.",
+      "available": 1
+    },
+    {
+      "title": "TACTICAL RECON",
+      "sp": 1,
+      "description": "During the Action phase of the next campaign round, when players are determining the attacker, the player with this card can choose to change their pre-battle selection from Reinforce or Advance to Subterfuge after players have revealed their choices. If both players have a card that allows them to change their pre-battle selection, they roll off, and the winner chooses the order in which they both get the opportunity to do so.\n This does not apply to battles in which a player is assaulting a special location using the 'Assault Stronghold' card.",
+      "available": 1
+    },
+    {
+      "title": "STEAL THE GLORY",
+      "sp": 3,
+      "description": "When a player purchases this card, they immediately gain D6 glory points, and the player must redetermine their Initiative for the current phase before moving on to the Seize Territory step of the Strategy phase.",
+      "available": 1
+    },
+    {
+      "title": "TOOLS OF WAR",
+      "sp": 3,
+      "description": "During the Action phase of the next campaign round, a CHARACTER in the army of the player with this card can take an Enhancement from their army's detachment for no additional cost. Remember that a model cannot have more than one Enhancement, and named characters cannot have any. This card costs 0 strategy points if the purchasing player controls the Promethium Reactor Complex.",
+      "available": 1
+    },
+    {
+      "title": "URBAN TACTICS",
+      "sp": 3,
+      "description": "During the Action phase of the next campaign round, the player with this card starts the battle with D3 additional Command Points (these can only be spent on Hivecity Conquest Strategems). This card costs 0 strategy points if the purchasing player controls Sniper's Alley.",
+      "available": 1
+    },
+    {
+      "title": "STRIKE FIRST, STRIKE HARD",
+      "sp": 4,
+      "description": "During the Action phase of the next campaign round, the player with this card can re-roll any dice roll they make to seize the initiative or to see who gets the first turn (including when they roll off to determine who gets the first turn).",
+      "available": 1
+    }
+  ],
+  "strategic-goals": [
+    {
+      "title": "SEIZE THE CITY",
+      "description": "In Urban Conquest, the player that controls the most locations receives 3 bonus campaign points. The player that controls the second highest number of locations receives 2 bonus campaign points. The player that controls the third highest number of locations receives 1 bonus campaign point. In the case of a draw, the player that has the higher Initiative this round counts as controlling more locations.",
+      "mode": "urban-conquest"
+    },
+    {
+      "title": "HOLD THE POWER BASE",
+      "description": "In Under Seige, at the start of the campaign, the Protector must select one location in their territory to be their power base (place the Power Base marker onto this location's upgrade slot - it cannot be upgraded during the campaign, and cannot be Razed). This location is worth 1 bonus campaign point to the Protector if they control it in the Strategy phase, and 3 bonus campaign points to the Invader if they control it in the Strategy phase.",
+      "mode": "under-seige"
+    },
+    {
+      "title": "REGROUP AND CONSOLIDATE",
+      "description": "In Scattered Outposts, each player adds together the largest number of connected locations in their territory (i.e. the biggest unbroken area of adjacent locations they control). Divide the total by three (rounding down); each player receives that number of bonus campaign points.",
+      "mode": "scattered-outposts"
+    }
+  ],
+  "locations": [
+    {
+      "title": "AEGIS CITY-SHIELD GENERATOR",
+      "resourceValue": 1,
+      "strategicValue": 3,
+      "special": true,
+      "type": "shield-generator"
+    },
+    {
+      "title": "FORTIFIED PALACE",
+      "resourceValue": 4,
+      "strategicValue": 0,
+      "special": true,
+      "type": "fortified-palace"
+    },
+    {
+      "title": "PROMETHIUM REACTOR COMPLEX",
+      "resourceValue": 2,
+      "strategicValue": 2,
+      "special": true,
+      "type": "promethium-reactor"
+    },
+    {
+      "title": "ORBITAL SHUTTLEPORT",
+      "resourceValue": 0,
+      "strategicValue": 4,
+      "special": true,
+      "type": "orbital-shuttleport"
+    },
+    {
+      "title": "SAINT'S BASILICANUM",
+      "resourceValue": 3,
+      "strategicValue": 1,
+      "special": true,
+      "type": "saints-basilicanum"
+    },
+    {
+      "title": "SNIPER'S ALLEY",
+      "resourceValue": 2,
+      "strategicValue": 2,
+      "special": true,
+      "type": "snipers-alley"
+    },
+    {
+      "title": "HAB-BLOCK 40-ALPHA",
+      "resourceValue": 0,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 17",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 3-GAMMA",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 535",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 306",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 227",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 101-DELTA",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 13",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 144",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 29",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 95",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "HAB-BLOCK 1",
+      "resourceValue": 1,
+      "strategicValue": 0,
+      "special": false,
+      "type": "hab-block"
+    },
+    {
+      "title": "BASILICANUM DISTRICT 01",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "basilicanum-district"
+    },
+    {
+      "title": "BASILICANUM DISTRICT 11",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "basilicanum-district"
+    },
+    {
+      "title": "BASILICANUM DISTRICT 07",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "basilicanum-district"
+    },
+    {
+      "title": "BASILICANUM DISTRICT 21",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "basilicanum-district"
+    },
+    {
+      "title": "BASILICANUM DISTRICT 25",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "basilicanum-district"
+    },
+    {
+      "title": "BASILICANUM DISTRICT 03",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "basilicanum-district"
+    },
+    {
+      "title": "ADMINISTRATUM DISTRICT 18",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "administratum-disctrict"
+    },
+    {
+      "title": "ADMINISTRATUM DISTRICT 605",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "administratum-disctrict"
+    },
+    {
+      "title": "ADMINISTRATUM DISTRICT SIGMA-2",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "administratum-disctrict"
+    },
+    {
+      "title": "ADMINISTRATUM DISTRICT 10-BETA",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "administratum-disctrict"
+    },
+    {
+      "title": "ADMINISTRATUM DISTRICT 72-GAMMA",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "administratum-disctrict"
+    },
+    {
+      "title": "ADMINISTRATUM DISTRICT 044",
+      "resourceValue": 0,
+      "strategicValue": 1,
+      "special": false,
+      "type": "administratum-disctrict"
+    },
+    {
+      "title": "ADEPTUS PRIMARIS QUARTER",
+      "resourceValue": 2,
+      "strategicValue": 0,
+      "special": false,
+      "type": "adeptus-quarter"
+    },
+    {
+      "title": "ADEPTUS SECUNDUS QUARTER",
+      "resourceValue": 2,
+      "strategicValue": 0,
+      "special": false,
+      "type": "adeptus-quarter"
+    },
+    {
+      "title": "ADEPTUS TERTIUS QUARTER",
+      "resourceValue": 2,
+      "strategicValue": 0,
+      "special": false,
+      "type": "adeptus-quarter"
+    },
+    {
+      "title": "ADEPTUS MINISTORUM PRIMARIS QUARTER",
+      "resourceValue": 2,
+      "strategicValue": 0,
+      "special": false,
+      "type": "adeptus-ministorum"
+    },
+    {
+      "title": "ADEPTUS MINISTORUM SECUNDUS QUARTER",
+      "resourceValue": 2,
+      "strategicValue": 0,
+      "special": false,
+      "type": "adeptus-ministorum"
+    },
+    {
+      "title": "ADEPTUS MINISTORUM TERTIUS QUARTER",
+      "resourceValue": 2,
+      "strategicValue": 0,
+      "special": false,
+      "type": "adeptus-ministorum"
+    },
+    {
+      "title": "SANCTUM CELESTINUS",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "sanctum"
+    },
+    {
+      "title": "SANCTUM BASILIUS",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "sanctum"
+    },
+    {
+      "title": "SANCTUM IMPERIALIS SALUTIS",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "sanctum"
+    },
+    {
+      "title": "SANCTUM MINISTORUM DOMINATUS",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "sanctum"
+    },
+    {
+      "title": "SANCTUM MINISTORUM INDOMITUS",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "sanctum"
+    },
+    {
+      "title": "SANCTUM LUCIA",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "sanctum"
+    },
+    {
+      "title": "MANUFACTORUM ZONE ALPHA-2",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "manufactorum-zone"
+    },
+    {
+      "title": "MANUFACTORUM ZONE ALPHA-PHI",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "manufactorum-zone"
+    },
+    {
+      "title": "MANUFACTORUM ZONE GAMMA-17",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "manufactorum-zone"
+    },
+    {
+      "title": "MANUFACTORUM ZONE MU-BETA",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "manufactorum-zone"
+    },
+    {
+      "title": "MANUFACTORUM ZONE PSI-13",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "manufactorum-zone"
+    },
+    {
+      "title": "MANUFACTORUM ZONE GAMMA-01",
+      "resourceValue": 1,
+      "strategicValue": 1,
+      "special": false,
+      "type": "manufactorum-zone"
+    },
+    {
+      "title": "SECTOR MECHANICUS SIGMA-7",
+      "resourceValue": 0,
+      "strategicValue": 2,
+      "special": false,
+      "type": "sector-mechanicus"
+    },
+    {
+      "title": "SECTOR MECHANICUS BETA-PI",
+      "resourceValue": 0,
+      "strategicValue": 2,
+      "special": false,
+      "type": "sector-mechanicus"
+    },
+    {
+      "title": "SECTOR MECHANICUS SIGMA-55",
+      "resourceValue": 0,
+      "strategicValue": 2,
+      "special": false,
+      "type": "sector-mechanicus"
+    },
+    {
+      "title": "SECTOR MECHANICUS LAMBDA-MU",
+      "resourceValue": 0,
+      "strategicValue": 2,
+      "special": false,
+      "type": "sector-mechanicus"
+    },
+    {
+      "title": "SECTOR MECHANICUS DELTA-1",
+      "resourceValue": 0,
+      "strategicValue": 2,
+      "special": false,
+      "type": "sector-mechanicus"
+    },
+    {
+      "title": "SECTOR MECHANICUS RHO-12",
+      "resourceValue": 0,
+      "strategicValue": 2,
+      "special": false,
+      "type": "sector-mechanicus"
+    },
+    {
+      "title": "MECHANICUS WAREHOUSE DISTRICT",
+      "resourceValue": 2,
+      "strategicValue": 1,
+      "special": false,
+      "type": "warehouse-district"
+    },
+    {
+      "title": "SOLAR MERCANTILE DISTRICT",
+      "resourceValue": 2,
+      "strategicValue": 1,
+      "special": false,
+      "type": "warehouse-district"
+    },
+    {
+      "title": "ADMINISTRATUM AGRI-DISTRIBUTION DISTRICT",
+      "resourceValue": 2,
+      "strategicValue": 1,
+      "special": false,
+      "type": "warehouse-district"
+    }
+  ],
+  "random-events": [
+    {
+      "title": "BRIEF RESPITE",
+      "description": "No effect."
+    },
+    {
+      "title": "IMPETUOUS BLOODLUST",
+      "description": "Whilst this Random Event is in play, the player with the most campaign points can only choose to Assault (unless they assault a special location using the 'Assault Stronghold' Strategic Resource card). If two or more players are tied for the most campaign points, this Random Event applies to all of them."
+    },
+    {
+      "title": "UNDERDOG",
+      "description": "Whilst this Random Event is in play, the player with the fewest campaign points earns 1 additional glory point each time they win a battle. If two or more players are tied for the fewest campaign points, this Random Event applies to all of them."
+    },
+    {
+      "title": "COMMS BLACKOUT",
+      "description": "Whilst this Random Event is in play, the 'Command Re-roll' Strategem costs 2 Command Points instead of 1."
+    },
+    {
+      "title": "STRATEGIC OPPORTUNITY",
+      "description": "Whilst this Random Event is in play, any campaign points awarded for completing the Strategic Goal are doubled."
+    },
+    {
+      "title": "HIDDEN CACHE",
+      "description": "Whilst this Random Event is in play, all locations with a Resource Value of 0 are treated as having a Resource Value of 1 instead."
+    },
+    {
+      "title": "CONSOLIDATE TERRITORY",
+      "description": "Whilst this Random Event is in play, the player with the most campaign points can only choose to Reinforce (unless they assault a special location using the 'Assault Stronghold' Strategic Resource card). If two or more players are tied for the most campaign points, this Random Event applies to all of them."
+    },
+    {
+      "title": "RAGING INFERNO",
+      "description": "Whilst this Random Event is in play, both players roll a D6 at the start of each battle, before either side deploys, and add the results together. If the total is less than 7, the Urban Battlezone: Conflagration rules must be used for that battle."
+    },
+    {
+      "title": "DEFENSIVE OVERSIGHT",
+      "description": "Whilst this Random Event is in play, the Strategic Value of each special location is decreased by 1, to a minimum of 0."
+    },
+    {
+      "title": "SMOG STORM",
+      "description": "Whilst this Random Event is in play, both players roll a D6 at the start of each battle, before either side deploys, and add the results together. If the total is less than 7, the Urban Battlezone: Pollution rules must be used for that battle."
+    },
+    {
+      "title": "INTEL FROM HIGH COMMAND",
+      "description": "Whilst this Random Event is in play, each player starts each battle with 3 additional Command Points (these can only be spent on Hivecity Conquest stratagems)."
+    },
+    {
+      "title": "STRATEGIC STRONGHOLD",
+      "description": "The Strategic Value of all special locations is increased by 1 whilst this Random Event is in play."
+    },
+    {
+      "title": "EARTHQUAKE",
+      "description": "Whilst this event is drawn, the players immediately select a location in the city at random (excluding power bases and special locations). It is immediately Razed by an earthquake. In addition, whilst this Random Event is in play, both players roll a D6 at the start of each battle round played during the Action Phase. If the result is a double, aftershocks rumble and no units can Advance that battle round unless they can fly."
+    },
+    {
+      "title": "DUST STORMS",
+      "description": "Whilst this Random Event is in play, both players roll a D6 at the start of each battle, before either side deploys, and add the results together. If the total is less than 7, the Dawn Raid rules must be used for that battle."
+    },
+    {
+      "title": "DEPLETED STRONGHOLD",
+      "description": "Whilst this Random Event is in play, the Resource Value of each special location is decreased by 1, to a minimum of 0."
+    },
+    {
+      "title": "KEY STRONGHOLD",
+      "description": "The Resource Value of all special locations is increased by 1 whilst this Random Event is in play."
+    },
+    {
+      "title": "WINDOW OF OPPORTUNITY",
+      "description": "Whilst this Random Event is in play, subtract 1 from all dice rolls made to see if the battle ends."
+    },
+    {
+      "title": "EXTERMINATORS",
+      "description": "Whilst this Random Event is in play, both players roll a D6 at the start of each battle, before either side deploys, and add the results together. If the total is less than 7, the Urban Battlezone: Pollution rules must be used for that battle. In additon, each player should make a note of how many infestation models they destroy during the battle. At the end of that battle, the player that destroyed the most infestation models earns 1 additional glory point (in the case of a tie, both players earn 1 additional glory point."
+    }
+  ],
+  "hexes": [
+    {
+      "id": "0-0",
+      "x": 0,
+      "y": 0,
+      "adjacentHexes": [
+        "0-1",
+        "1-0"
+      ]
+    },
+    {
+      "id": "0-1",
+      "x": 0,
+      "y": 1,
+      "adjacentHexes": [
+        "0-0",
+        "1-0",
+        "1-1",
+        "1-2",
+        "0-2"
+      ]
+    },
+    {
+      "id": "0-2",
+      "x": 0,
+      "y": 2,
+      "adjacentHexes": [
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    },
+    {
+      "id": "0-3",
+      "x": 0,
+      "y": 3,
+      "adjacentHexes": [
+        "0-2",
+        "1-2",
+        "1-3",
+        "1-4",
+        "0-4"
+      ]
+    },
+    {
+      "id": "0-4",
+      "x": 0,
+      "y": 4,
+      "adjacentHexes": [
+        "0-3",
+        "1-4"
+      ]
+    },
+    {
+      "id": "1-0",
+      "x": 1,
+      "y": 0,
+      "adjacentHexes": [
+        "0-0",
+        "0-1",
+        "1-1",
+        "2-0"
+      ]
+    },
+    {
+      "id": "1-1",
+      "x": 1,
+      "y": 1,
+      "adjacentHexes": [
+        "0-1",
+        "1-0",
+        "2-0",
+        "2-1",
+        "2-2",
+        "1-2"
+      ]
+    },
+    {
+      "id": "1-2",
+      "x": 1,
+      "y": 2,
+      "adjacentHexes": [
+        "0-2",
+        "0-1",
+        "1-1",
+        "2-2",
+        "1-3",
+        "0-3"
+      ]
+    },
+    {
+      "id": "1-3",
+      "x": 1,
+      "y": 3,
+      "adjacentHexes": [
+        "0-3",
+        "1-2",
+        "2-2",
+        "2-3",
+        "2-4",
+        "1-4"
+      ]
+    },
+    {
+      "id": "1-4",
+      "x": 1,
+      "y": 4,
+      "adjacentHexes": [
+        "0-4",
+        "0-3",
+        "1-3",
+        "2-4"
+      ]
+    },
+    {
+      "id": "2-0",
+      "x": 2,
+      "y": 0,
+      "adjacentHexes": [
+        "1-0",
+        "1-1",
+        "2-1",
+        "3-0"
+      ]
+    },
+    {
+      "id": "2-1",
+      "x": 2,
+      "y": 1,
+      "adjacentHexes": [
+        "1-1",
+        "2-0",
+        "3-0",
+        "3-1",
+        "3-2",
+        "2-2"
+      ]
+    },
+    {
+      "id": "2-2",
+      "x": 2,
+      "y": 2,
+      "adjacentHexes": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "2-1",
+        "2-3",
+        "3-2"
+      ]
+    },
+    {
+      "id": "2-3",
+      "x": 2,
+      "y": 3,
+      "adjacentHexes": [
+        "1-3",
+        "2-2",
+        "3-2",
+        "3-3",
+        "3-4",
+        "2-4"
+      ]
+    },
+    {
+      "id": "2-4",
+      "x": 2,
+      "y": 4,
+      "adjacentHexes": [
+        "1-4",
+        "1-3",
+        "2-3",
+        "3-4"
+      ]
+    },
+    {
+      "id": "3-0",
+      "x": 3,
+      "y": 0,
+      "adjacentHexes": [
+        "2-0",
+        "2-1",
+        "3-1",
+        "4-0"
+      ]
+    },
+    {
+      "id": "3-1",
+      "x": 3,
+      "y": 1,
+      "adjacentHexes": [
+        "2-1",
+        "3-0",
+        "4-0",
+        "4-1",
+        "4-2",
+        "3-2"
+      ]
+    },
+    {
+      "id": "3-2",
+      "x": 3,
+      "y": 2,
+      "adjacentHexes": [
+        "2-1",
+        "2-2",
+        "2-3",
+        "3-1",
+        "3-3",
+        "4-2"
+      ]
+    },
+    {
+      "id": "3-3",
+      "x": 3,
+      "y": 3,
+      "adjacentHexes": [
+        "2-3",
+        "3-2",
+        "4-2",
+        "4-3",
+        "4-4",
+        "3-4"
+      ]
+    },
+    {
+      "id": "3-4",
+      "x": 3,
+      "y": 4,
+      "adjacentHexes": [
+        "2-4",
+        "2-3",
+        "3-3",
+        "4-4"
+      ]
+    },
+    {
+      "id": "4-0",
+      "x": 4,
+      "y": 0,
+      "adjacentHexes": [
+        "3-0",
+        "3-1",
+        "4-1"
+      ]
+    },
+    {
+      "id": "4-1",
+      "x": 4,
+      "y": 1,
+      "adjacentHexes": [
+        "3-1",
+        "4-0",
+        "4-2"
+      ]
+    },
+    {
+      "id": "4-2",
+      "x": 4,
+      "y": 2,
+      "adjacentHexes": [
+        "3-1",
+        "3-2",
+        "3-3",
+        "4-1",
+        "4-3"
+      ]
+    },
+    {
+      "id": "4-3",
+      "x": 4,
+      "y": 3,
+      "adjacentHexes": [
+        "3-3",
+        "4-2",
+        "4-4"
+      ]
+    },
+    {
+      "id": "4-4",
+      "x": 4,
+      "y": 4,
+      "adjacentHexes": [
+        "3-4",
+        "3-3",
+        "4-3"
+      ]
+    }
+  ]
+}
