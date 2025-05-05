@@ -32,10 +32,6 @@
     font-size: vw(18px);
     margin-bottom: vw(10px);
   }
-
-  .hex-modal-container {
-    @include flex-center;
-  }
 }
 
 .hex-details-overlay {
@@ -63,7 +59,10 @@
     text-align: center;
   }
 
-  /* Additional specific styles */
+  .hex-modal-container {
+    @include flex-center;
+  }
+
   .detail-row {
     display: flex;
     margin-bottom: 0.75rem;
